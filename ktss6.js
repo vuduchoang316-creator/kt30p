@@ -1,11 +1,10 @@
 let string = "Quý, Nam, Lan, Hùng, Nam";
- let nameArray=string.split(" ");
+ let nameArray=string.split(", ");
  console.log(nameArray);
  nameArray.reverse();
+
  if(nameArray.includes("Lan")){
-    
     console.log("Tên Lan tồn tại trong mảng");
-    
  }else{
      console.log("Tên Lan không tồn tại trong mảng");
  }
