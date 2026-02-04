@@ -3,9 +3,11 @@ let string = "Quý, Nam, Lan, Hùng, Nam";
  console.log(nameArray);
  nameArray.reverse();
  if(nameArray.includes("Lan")){
-    alert("Tên Lan tồn tại trong mảng");
+    
+    console.log("Tên Lan tồn tại trong mảng");
+    
  }else{
-    alert("Tên Lan không tồn tại trong mảng");
+     console.log("Tên Lan không tồn tại trong mảng");
  }
 
  let index=nameArray.indexOf("Nam");
