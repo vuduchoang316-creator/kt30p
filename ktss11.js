@@ -16,7 +16,7 @@ const findProductById = (newId) => {
         if(result){
             console.log(result);
         }else{
-            console.log("Khôgn tìm thấy");   
+            console.log("Không tìm thấy");   
         }
 }
 )};
@@ -37,7 +37,7 @@ ExProduct();
 const catalogDisplay = () => {
     const result = products.map((product) => {
         let status;
-        if(product.inStock === "true"){
+        if(product.inStock === true){
             status = "Còn Hàng";
         }else {
             status = "Hết Hàng";
