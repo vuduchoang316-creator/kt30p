@@ -39,5 +39,6 @@ const addForm = () => {
     passWord.value = '';
     inputNameEl.value = '';
     rePassWord.value = '';
+    alert("Đăng ký thành công");
 }
 btn.addEventListener("click" , addForm);
